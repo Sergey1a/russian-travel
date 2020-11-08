@@ -2,9 +2,6 @@
 @import url(../vendor/normalize.css);
 /*page*/
 @import url(../blocks/page/page.css);
-@import url(../font-face/Inter-Black.woff);
-@import url(../font-face/Inter-Bold.woff);
-@import url(../font-face/Inter-Regular.woff);
 /*conyeiner*/
 @import url(../blocks/conteiner/conteiner.css);
 /*header*/
@@ -60,10 +57,10 @@
 @font-face {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 800;
+  font-weight: 700;
   font-display: swap;
   src: url("../font-face/Inter-Bold.woff") format("woff2"),
-    url("Inter-ExtraBold.woff?v=3.15") format("woff");
+    url("Inter-Bold.woff?v=3.15") format("woff");
 }
 @font-face {
   font-family: "Inter";

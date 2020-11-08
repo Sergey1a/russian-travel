@@ -4,7 +4,7 @@
   grid-template-rows: 1fr;
   margin: 28px 48px 56px 48px;
   max-width: 1184px;
-  height: 52px;
+  min-height: 52px;
 }
 
 @media screen and (max-width: 1030px) {

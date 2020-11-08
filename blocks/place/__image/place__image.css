@@ -4,7 +4,6 @@
   max-width: 460px;
   max-height: 460px;
   object-fit: cover;
-  margin: 0 auto;
 }
 @media screen and (max-width: 1030px) {
   .place__image {
@@ -24,6 +23,7 @@
   .place__image {
     max-width: 100%;
     max-height: 100%;
+    margin: 0 auto;
   }
 }
 @media screen and (max-width: 360px) {
