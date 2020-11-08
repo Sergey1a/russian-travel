@@ -34,6 +34,6 @@
   .lead__title {
     line-height: 44px;
     align-items: flex-start;
-    height: 88px;
+    min-height: 88px;
   }
 }
