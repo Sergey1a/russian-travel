@@ -1,0 +1,21 @@
+.photo__item {
+  width: 100%;
+  min-height: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .photo__item {
+    max-width: 100%;
+    min-height: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .photo__item {
+    width: 100%;
+    min-height: 100%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .photo__item {
+    width: 100%;
+  }
+}

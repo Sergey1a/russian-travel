@@ -1,0 +1,10 @@
+.place__url-link {
+  align-items: flex-end;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 660px) {
+  .place__url-link {
+    display: none;
+  }
+}

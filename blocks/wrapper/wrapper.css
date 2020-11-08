@@ -1,0 +1,23 @@
+.wrapper {
+  font-family: inter, "Arial", sans-serif;
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1030px) {
+  .wrapper {
+    margin: 0 48px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .wrapper {
+    margin: 0 0 88px 0;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .wrapper {
+    margin: 0 0 64px 0;
+  }
+}

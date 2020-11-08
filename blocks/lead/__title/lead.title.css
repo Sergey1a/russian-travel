@@ -1,0 +1,37 @@
+.lead__title {
+  display: flex;
+  color: rgba(255, 255, 255, 1);
+  max-width: 720px;
+  max-height: 200px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px; /*calc(40px + 56 * (100vw / 1280))*/
+  line-height: 100px;
+  margin: 0 auto 32px;
+  text-align: center;
+  align-items: start;
+  justify-content: center;
+}
+
+@media screen and (max-width: 780px) {
+  .lead__title {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .lead__title {
+    font-size: calc(2.5rem + (56 + 56 * 0.7) * ((100vw - 320px) / 1280));
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .lead__title {
+    line-height: 44px;
+  }
+}

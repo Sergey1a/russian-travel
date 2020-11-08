@@ -1,0 +1,29 @@
+.place__link {
+  grid-column: 2;
+  grid-row: 1;
+  justify-content: flex-start;
+  justify-items: end;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  opacity: 1;
+}
+.place__link:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 1030px) {
+}
+
+@media screen and (max-width: 780px) {
+}
+
+@media screen and (max-width: 660px) {
+  .place__link {
+    display: none;
+  }
+}
