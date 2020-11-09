@@ -1,26 +1,23 @@
 .cover__title {
   max-width: 560px;
-  min-height: 70px;
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem;
   line-height: 76px;
   color: #ffffff;
   margin: 0 auto 32px;
-  position: relative;
   z-index: 22;
 }
 @media screen and (max-width: 750px) {
   .cover__title {
-    font-size: 3rem; /*calc(2rem + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));*/
-    line-height: 35px;
+    /*font-size: 3rem; /*calc(2rem + (40 + 40 * 0.7) * ((100vw - 320px) / 1280));*/
     max-width: 75%;
     margin: 0 auto 16px;
   }
 }
 @media screen and (max-width: 660px) {
   .cover__title {
-    font-size: 2rem;
-    min-height: 70px;
+    font-size: 2em;
+    line-height: 35px;
   }
 }

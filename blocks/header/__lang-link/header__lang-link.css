@@ -1,4 +1,4 @@
-.header__lang-link-ru {
+.header__lang-link {
   justify-items: end;
   justify-self: flex-end;
   align-self: flex-end;
@@ -8,14 +8,12 @@
   line-height: 28px;
   max-width: 30px;
   color: rgba(255, 255, 255, 1);
-  margin: 18px 17px 6px 0;
   text-decoration: none;
+  margin-left: 18px;
 }
 
 @media screen and (max-width: 660px) {
-  .header__lang-link-ru {
-    font-style: normal;
-    font-weight: normal;
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }

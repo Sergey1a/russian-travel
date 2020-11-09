@@ -4,28 +4,3 @@
   width: 100%;
   font-family: inter, "Arial", sans-serif;
 }
-/*
-@media screen and (max-width: 1030px) {
-  .conteiner {
-    max-width: 928px;
-    margin: 0 auto;
-    padding: 0 48px;
-  }
-}
-
-@media screen and (max-width: 780px) {
-  .conteiner {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 0 24px;
-  }
-}
-
-@media screen and (max-width: 660px) {
-  .conteiner {
-    max-width: 288px;
-    padding: 16px;
-    margin: 0;
-  }
-}
-*/

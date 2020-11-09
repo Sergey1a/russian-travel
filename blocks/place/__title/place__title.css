@@ -10,17 +10,8 @@
   letter-spacing: 106%;
 }
 
-@media screen and (max-width: 1030px) {
-  .place__title {
-    align-self: flex-end;
-    align-items: flex-start;
-  }
-}
-
 @media screen and (max-width: 780px) {
   .place__title {
-    font-style: normal;
-    font-weight: 900;
     font-size: 42px;
     line-height: 46px;
   }
@@ -35,8 +26,6 @@
 }
 @media screen and (max-width: 380px) {
   .place__title {
-    display: flex;
-    justify-content: center;
     align-self: flex-start;
     margin-left: 16px;
     font-size: 32px;

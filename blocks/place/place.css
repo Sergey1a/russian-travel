@@ -9,25 +9,22 @@
 
 @media screen and (max-width: 1030px) {
   .place {
-    display: grid;
     column-gap: 32px;
   }
 }
 
 @media screen and (max-width: 800px) {
   .place {
-    margin: 0 0 72px 0;
+    margin: 0 0 73px 0;
   }
 }
 
 @media screen and (max-width: 660px) {
   .place {
-    display: grid;
     grid-template-columns: auto;
     row-gap: 32px;
     justify-items: center;
     margin-bottom: 49px;
-    margin-bottom: 66px;
   }
 }
 @media screen and (max-width: 400px) {

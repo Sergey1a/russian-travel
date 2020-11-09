@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   width: calc(100% - 96px);
-  max-height: 18px;
   margin: 0 auto 24px;
 }
 @media screen and (max-width: 800px) {
@@ -16,6 +15,5 @@
     flex-direction: column;
     margin: 0;
     padding-left: 16px;
-    height: auto;
   }
 }

@@ -8,11 +8,7 @@
   font-size: 12px;
   line-height: 12px;
   color: #aaaaaa;
-  position: relative;
-  bottom: 14px;
-}
-@media screen and (max-width: 660px) {
-  .place__url-heading {
-    display: none;
-  }
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
