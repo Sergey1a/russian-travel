@@ -6,12 +6,8 @@
   text-decoration: none;
   margin: 0;
   padding: 0;
-  opacity: 1;
 }
-.footer__link:hover {
-  opacity: 0.8;
-  transition: 0.3s;
-}
+
 @media screen and (max-width: 725px) {
   .footer__links {
     grid-template-columns: 1fr;
